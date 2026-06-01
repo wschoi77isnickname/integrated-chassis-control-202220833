@@ -1,0 +1,146 @@
+{
+  "student": {
+    "student_id": "202220833",
+    "name": "최우성",
+    "team_members": [],
+    "course": "자동제어 - 2026 봄",
+    "ai_usage": "chat gpt was used"
+  },
+  "timestamp": "2026-06-01T18:30:36",
+  "quantitative": {
+    "score": 45.591214261527242,
+    "max": 70,
+    "pct": 65.130306087896059
+  },
+  "deductions": {
+    "amount": 0,
+    "reasons": []
+  },
+  "errors": [],
+  "breakdown": [
+    {
+      "sid": "A3",
+      "kpi": "yawRateOvershoot",
+      "value": 2.9856699080464604,
+      "target": 10,
+      "score": 0,
+      "max": 4
+    },
+    {
+      "sid": "A3",
+      "kpi": "yawRateRiseTime",
+      "value": 0.123,
+      "target": 0.3,
+      "score": 4,
+      "max": 4
+    },
+    {
+      "sid": "A3",
+      "kpi": "yawRateSettling",
+      "value": 1.2269999999999999,
+      "target": 0.8,
+      "score": 1.8650000000000011,
+      "max": 4
+    },
+    {
+      "sid": "A1",
+      "kpi": "sideSlipMax",
+      "value": 2.9729941637419728,
+      "target": 3,
+      "score": 6,
+      "max": 6
+    },
+    {
+      "sid": "A1",
+      "kpi": "LTR_max",
+      "value": 0.82606548348013786,
+      "target": 0.6,
+      "score": 3.1161209709988511,
+      "max": 5
+    },
+    {
+      "sid": "A1",
+      "kpi": "lateralDevMax",
+      "value": 1.8657596841049,
+      "target": 0.7,
+      "score": 0,
+      "max": 4
+    },
+    {
+      "sid": "A4",
+      "kpi": "understeerGradient",
+      "value": 0.0007440583889112769,
+      "target": 0.003,
+      "score": 5,
+      "max": 5
+    },
+    {
+      "sid": "A4",
+      "kpi": "sideSlipMax",
+      "value": 1.1734481154003462,
+      "target": 2,
+      "score": 5,
+      "max": 5
+    },
+    {
+      "sid": "A7",
+      "kpi": "sideSlipMax",
+      "value": 1.9427878763754636,
+      "target": 5,
+      "score": 8,
+      "max": 8
+    },
+    {
+      "sid": "A7",
+      "kpi": "LTR_max",
+      "value": 0.32977887825791313,
+      "target": 0.7,
+      "score": 7,
+      "max": 7
+    },
+    {
+      "sid": "B1",
+      "kpi": "stoppingDistance",
+      "value": 75.744545139351672,
+      "target": 40,
+      "score": 0,
+      "max": 5
+    },
+    {
+      "sid": "B1",
+      "kpi": "absSlipRMS",
+      "value": 0.23909065293613463,
+      "target": 0.1,
+      "score": 0.3636449021288457,
+      "max": 5
+    },
+    {
+      "sid": "D1",
+      "kpi": "sideSlipMax",
+      "value": 3.823524377818345,
+      "target": 4,
+      "score": 4,
+      "max": 4
+    },
+    {
+      "sid": "D1",
+      "kpi": "LTR_max",
+      "value": 0.82606548348013786,
+      "target": 0.6,
+      "score": 1.2464483883995403,
+      "max": 2
+    },
+    {
+      "sid": "D1",
+      "kpi": "lateralDevMax",
+      "value": 1.8657596841049,
+      "target": 1,
+      "score": 0,
+      "max": 2
+    }
+  ],
+  "final_auto": 45.591214261527242,
+  "ctrl_signature": "e7f8dd9a3e01d69ade7a30978f72fd2598483011457b0b3bc8c7336f207693e7",
+  "matlab_version": "25.1 (R2025a)",
+  "solver_used": "ode45"
+}
