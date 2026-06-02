@@ -6,7 +6,7 @@
     "course": "자동제어 - 2026 봄",
     "ai_usage": "chat gpt was used"
   },
-  "timestamp": "2026-06-01T18:30:36",
+  "timestamp": "2026-06-02T15:42:45",
   "quantitative": {
     "score": 45.591214261527242,
     "max": 70,
@@ -102,7 +102,7 @@
       "sid": "B1",
       "kpi": "stoppingDistance",
       "value": 75.744545139351672,
-      "target": 40,
+      "target": 66.5,
       "score": 0,
       "max": 5
     },
